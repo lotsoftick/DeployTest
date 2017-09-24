@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6cddc92-0dc2-4a80-bb4c-30b226725ada" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docker-compose.prod..yml" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" afterPath="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/index.php" afterPath="$PROJECT_DIR$/back-end/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docker-compose.prod.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.prod.yml">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/back-end/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+            <state relative-caret-position="24">
+              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -41,11 +42,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
-        <option value="$PROJECT_DIR$/back-end/index.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker-compose.prod..yml" />
+        <option value="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/back-end/index.php" />
       </list>
     </option>
   </component>
@@ -83,6 +84,11 @@
             <path>
               <item name="DeployTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeployTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="DeployTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeployTest" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="back-end" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -133,17 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1506254472854</updated>
       <workItem from="1506254474767" duration="279000" />
-      <workItem from="1506254788266" duration="3688000" />
+      <workItem from="1506254788266" duration="4476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3967000" />
+    <option name="totallyTimeSpent" value="4755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -281,14 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -301,14 +300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dockerData/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -376,8 +367,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="59" column="36" lean-forward="false" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="1128">
+          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <marker date="1506274869000" expanded="true" signature="9:12" ph="2" />
+            <marker date="1506274869000" expanded="true" signature="14:1043" ph="services: &lt;4 keys&gt;" />
+            <marker date="1506274869000" expanded="true" signature="32:299" ph="nginx: &lt;6 keys&gt;" />
+            <marker date="1506274869000" expanded="true" signature="50:62" ph="nginx:alpine" />
+            <marker date="1506274869000" expanded="true" signature="83:88" ph="nginx" />
+            <marker date="1506274869000" expanded="true" signature="93:118" ph="volumes_from: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="115:118" ph="php" />
+            <marker date="1506274869000" expanded="true" signature="123:235" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1506274869000" expanded="true" signature="140:201" ph="./_docker…fault.conf" />
+            <marker date="1506274869000" expanded="true" signature="210:235" ph="static-da…atic_files" />
+            <marker date="1506274869000" expanded="true" signature="240:274" ph="links: &lt;2 items&gt;" />
+            <marker date="1506274869000" expanded="true" signature="255:258" ph="php" />
+            <marker date="1506274869000" expanded="true" signature="267:274" ph="adminer" />
+            <marker date="1506274869000" expanded="true" signature="279:299" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="294:299" ph="80:80" />
+            <marker date="1506274869000" expanded="true" signature="308:644" ph="php: &lt;7 keys&gt;" />
+            <marker date="1506274869000" expanded="true" signature="324:341" ph="./_dockerData/php" />
+            <marker date="1506274869000" expanded="true" signature="353:373" ph="php:7.1.2-fpm-alpine" />
+            <marker date="1506274869000" expanded="true" signature="394:397" ph="php" />
+            <marker date="1506274869000" expanded="true" signature="415:428" ph="/var/www/data" />
+            <marker date="1506274869000" expanded="true" signature="433:587" ph="volumes: &lt;3 items&gt;" />
+            <marker date="1506274869000" expanded="true" signature="450:475" ph="./back-en…r/www/data" />
+            <marker date="1506274869000" expanded="true" signature="484:543" ph="./_docker….d/php.ini" />
+            <marker date="1506274869000" expanded="true" signature="552:587" ph="static-da…/storage:z" />
+            <marker date="1506274869000" expanded="true" signature="592:619" ph="entrypoint: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="612:619" ph="php-fpm" />
+            <marker date="1506274869000" expanded="true" signature="624:644" ph="links: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="639:644" ph="mysql" />
+            <marker date="1506274869000" expanded="true" signature="653:857" ph="adminer: &lt;5 keys&gt;" />
+            <marker date="1506274869000" expanded="true" signature="687:694" ph="adminer" />
+            <marker date="1506274869000" expanded="true" signature="715:722" ph="adminer" />
+            <marker date="1506274869000" expanded="true" signature="727:751" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="742:751" ph="3307:8080" />
+            <marker date="1506274869000" expanded="true" signature="756:776" ph="links: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="771:776" ph="mysql" />
+            <marker date="1506274869000" expanded="true" signature="781:857" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="798:857" ph="./_docker…dminer.css" />
+            <marker date="1506274869000" expanded="true" signature="866:1043" ph="mysql: &lt;5 keys&gt;" />
+            <marker date="1506274869000" expanded="true" signature="884:889" ph="mysql" />
+            <marker date="1506274869000" expanded="true" signature="910:915" ph="mysql" />
+            <marker date="1506274869000" expanded="true" signature="920:944" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="935:944" ph="3306:3306" />
+            <marker date="1506274869000" expanded="true" signature="949:989" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506274869000" expanded="true" signature="966:989" ph="db-data:/…lib/mysql/" />
+            <marker date="1506274869000" expanded="true" signature="994:1043" ph="environment: &lt;1 key&gt;" />
+            <marker date="1506274869000" expanded="true" signature="1035:1043" ph="somepass" />
+            <marker date="1506274869000" expanded="true" signature="1050:1084" ph="volumes: &lt;2 keys&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dockerData/nginx/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
