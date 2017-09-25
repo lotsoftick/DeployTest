@@ -26,6 +26,7 @@ services:
     container_name: php
     working_dir: /var/www/data
     volumes:
+      - ./back-end/:/var/www/data/
       - static-data:/var/www/data/storage:z
     entrypoint:
       - php-fpm
