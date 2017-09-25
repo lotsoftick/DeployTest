@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6cddc92-0dc2-4a80-bb4c-30b226725ada" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_dockerData/php/Dockerfile" afterPath="$PROJECT_DIR$/_dockerData/php/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/back-end/index.php" afterPath="$PROJECT_DIR$/back-end/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.prod.yml" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/back-end/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -45,6 +49,9 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker-compose.prod..yml" />
         <option value="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/docker-compose.prod.yml" />
+        <option value="$PROJECT_DIR$/_dockerData/php/Dockerfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/back-end/index.php" />
       </list>
     </option>
@@ -56,7 +63,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -77,6 +84,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DeployTest" type="cbb8eebc:String" user="DeployTest" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,17 +106,6 @@
               <item name="DeployTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeployTest" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="back-end" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="DeployTest" type="cbb8eebc:String" user="DeployTest" />
             </path>
           </expand>
           <select />
@@ -138,15 +145,16 @@
       <option name="presentableId" value="Default" />
       <updated>1506254472854</updated>
       <workItem from="1506254474767" duration="279000" />
-      <workItem from="1506254788266" duration="8377000" />
+      <workItem from="1506254788266" duration="8904000" />
+      <workItem from="1506353980775" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8656000" />
+    <option name="totallyTimeSpent" value="10389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -154,18 +162,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,11 +187,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/back-end/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_dockerData/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -199,91 +214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488295376000" expanded="true" signature="0:260" ph="/*...*/" />
-            <marker date="1488295376000" expanded="true" signature="346:495" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="501:77250" ph="{...}" />
-            <marker date="1488295376000" expanded="false" signature="526:77246" ph="data:image/png" />
-            <marker date="1488295376000" expanded="true" signature="77264:77285" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77298:77358" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77368:77385" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77437:77504" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77532:77563" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77594:77657" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77670:77694" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77728:77778" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77788:77819" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77824:77973" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="77984:78031" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78045:78108" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78128:78153" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78162:78182" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78190:78337" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78348:78437" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="78444:79000" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79021:79486" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79494:79542" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79568:79634" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79656:79678" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79698:79711" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79717:79760" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79800:79848" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="79854:79961" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80005:80081" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80118:80141" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80162:80341" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80404:80423" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80430:80513" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80520:80613" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80618:80659" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80671:80695" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80745:80781" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80790:80808" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80825:80885" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80893:80908" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80918:80933" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="80943:81016" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81024:81148" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81162:81198" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81212:81367" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81381:81436" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81444:81630" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81639:81686" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81695:81711" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81726:81747" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81764:81829" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81848:81914" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81939:81956" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="81977:82017" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82036:82066" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82093:82117" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82140:82162" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82197:82203" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82213:82264" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82280:82296" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82310:82334" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82370:82396" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82417:82450" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82462:82479" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82508:82541" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82550:82574" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="82601:83003" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83016:83196" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83200:83307" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83322:83339" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83350:83369" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83377:83409" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83419:83438" ph="{...}" />
-            <marker date="1488295376000" expanded="true" signature="83449:83583" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_dockerData/php/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -291,7 +221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -299,7 +228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -307,7 +235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -315,115 +242,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
           <caret line="73" column="52" lean-forward="false" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="61" />
-          <folding>
-            <marker date="1506258145000" expanded="true" signature="9:12" ph="2" />
-            <marker date="1506258145000" expanded="true" signature="14:1107" ph="services: &lt;4 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="32:315" ph="nginx: &lt;6 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="50:62" ph="nginx:alpine" />
-            <marker date="1506258145000" expanded="true" signature="83:104" ph="${PROJECT…AME}_nginx" />
-            <marker date="1506258145000" expanded="true" signature="109:134" ph="volumes_from: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="131:134" ph="php" />
-            <marker date="1506258145000" expanded="true" signature="139:251" ph="volumes: &lt;2 items&gt;" />
-            <marker date="1506258145000" expanded="true" signature="156:217" ph="./_docker…fault.conf" />
-            <marker date="1506258145000" expanded="true" signature="226:251" ph="static-da…atic_files" />
-            <marker date="1506258145000" expanded="true" signature="256:290" ph="links: &lt;2 items&gt;" />
-            <marker date="1506258145000" expanded="true" signature="271:274" ph="php" />
-            <marker date="1506258145000" expanded="true" signature="283:290" ph="adminer" />
-            <marker date="1506258145000" expanded="true" signature="295:315" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="310:315" ph="80:80" />
-            <marker date="1506258145000" expanded="true" signature="324:676" ph="php: &lt;7 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="340:357" ph="./_dockerData/php" />
-            <marker date="1506258145000" expanded="true" signature="369:389" ph="php:7.1.2-fpm-alpine" />
-            <marker date="1506258145000" expanded="true" signature="410:429" ph="${PROJECT_NAME}_php" />
-            <marker date="1506258145000" expanded="true" signature="447:460" ph="/var/www/data" />
-            <marker date="1506258145000" expanded="true" signature="465:619" ph="volumes: &lt;3 items&gt;" />
-            <marker date="1506258145000" expanded="true" signature="482:507" ph="./back-en…r/www/data" />
-            <marker date="1506258145000" expanded="true" signature="516:575" ph="./_docker….d/php.ini" />
-            <marker date="1506258145000" expanded="true" signature="584:619" ph="static-da…/storage:z" />
-            <marker date="1506258145000" expanded="true" signature="624:651" ph="entrypoint: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="644:651" ph="php-fpm" />
-            <marker date="1506258145000" expanded="true" signature="656:676" ph="links: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="671:676" ph="mysql" />
-            <marker date="1506258145000" expanded="true" signature="685:905" ph="adminer: &lt;5 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="719:726" ph="adminer" />
-            <marker date="1506258145000" expanded="true" signature="747:770" ph="${PROJECT…E}_adminer" />
-            <marker date="1506258145000" expanded="true" signature="775:799" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="790:799" ph="3307:8080" />
-            <marker date="1506258145000" expanded="true" signature="804:824" ph="links: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="819:824" ph="mysql" />
-            <marker date="1506258145000" expanded="true" signature="829:905" ph="volumes: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="846:905" ph="./_docker…dminer.css" />
-            <marker date="1506258145000" expanded="true" signature="914:1107" ph="mysql: &lt;5 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="932:937" ph="mysql" />
-            <marker date="1506258145000" expanded="true" signature="958:979" ph="${PROJECT…AME}_mysql" />
-            <marker date="1506258145000" expanded="true" signature="984:1008" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="999:1008" ph="3306:3306" />
-            <marker date="1506258145000" expanded="true" signature="1013:1053" ph="volumes: &lt;1 item&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1030:1053" ph="db-data:/…lib/mysql/" />
-            <marker date="1506258145000" expanded="true" signature="1058:1107" ph="environment: &lt;1 key&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1099:1107" ph="somepass" />
-            <marker date="1506258145000" expanded="true" signature="1114:1148" ph="volumes: &lt;2 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1155:1273" ph="networks: &lt;1 key&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1167:1273" ph="default: &lt;2 keys&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1188:1194" ph="bridge" />
-            <marker date="1506258145000" expanded="true" signature="1199:1273" ph="driver_opts: &lt;1 key&gt;" />
-            <marker date="1506258145000" expanded="true" signature="1263:1273" ph="${HOST_IP}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_dockerData/php/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="648">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
-            <marker date="1506274869000" expanded="true" signature="9:12" ph="2" />
-            <marker date="1506274869000" expanded="true" signature="14:1043" ph="services: &lt;4 keys&gt;" />
-            <marker date="1506274869000" expanded="true" signature="32:299" ph="nginx: &lt;6 keys&gt;" />
-            <marker date="1506274869000" expanded="true" signature="50:62" ph="nginx:alpine" />
-            <marker date="1506274869000" expanded="true" signature="83:88" ph="nginx" />
-            <marker date="1506274869000" expanded="true" signature="93:118" ph="volumes_from: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="115:118" ph="php" />
-            <marker date="1506274869000" expanded="true" signature="123:235" ph="volumes: &lt;2 items&gt;" />
-            <marker date="1506274869000" expanded="true" signature="140:201" ph="./_docker…fault.conf" />
-            <marker date="1506274869000" expanded="true" signature="210:235" ph="static-da…atic_files" />
-            <marker date="1506274869000" expanded="true" signature="240:274" ph="links: &lt;2 items&gt;" />
-            <marker date="1506274869000" expanded="true" signature="255:258" ph="php" />
-            <marker date="1506274869000" expanded="true" signature="267:274" ph="adminer" />
-            <marker date="1506274869000" expanded="true" signature="279:299" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="294:299" ph="80:80" />
-            <marker date="1506274869000" expanded="true" signature="308:644" ph="php: &lt;7 keys&gt;" />
-            <marker date="1506274869000" expanded="true" signature="324:341" ph="./_dockerData/php" />
-            <marker date="1506274869000" expanded="true" signature="353:373" ph="php:7.1.2-fpm-alpine" />
-            <marker date="1506274869000" expanded="true" signature="394:397" ph="php" />
-            <marker date="1506274869000" expanded="true" signature="415:428" ph="/var/www/data" />
-            <marker date="1506274869000" expanded="true" signature="433:587" ph="volumes: &lt;3 items&gt;" />
-            <marker date="1506274869000" expanded="true" signature="450:475" ph="./back-en…r/www/data" />
-            <marker date="1506274869000" expanded="true" signature="484:543" ph="./_docker….d/php.ini" />
-            <marker date="1506274869000" expanded="true" signature="552:587" ph="static-da…/storage:z" />
-            <marker date="1506274869000" expanded="true" signature="592:619" ph="entrypoint: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="612:619" ph="php-fpm" />
-            <marker date="1506274869000" expanded="true" signature="624:644" ph="links: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="639:644" ph="mysql" />
-            <marker date="1506274869000" expanded="true" signature="653:857" ph="adminer: &lt;5 keys&gt;" />
-            <marker date="1506274869000" expanded="true" signature="687:694" ph="adminer" />
-            <marker date="1506274869000" expanded="true" signature="715:722" ph="adminer" />
-            <marker date="1506274869000" expanded="true" signature="727:751" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="742:751" ph="3307:8080" />
-            <marker date="1506274869000" expanded="true" signature="756:776" ph="links: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="771:776" ph="mysql" />
-            <marker date="1506274869000" expanded="true" signature="781:857" ph="volumes: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="798:857" ph="./_docker…dminer.css" />
-            <marker date="1506274869000" expanded="true" signature="866:1043" ph="mysql: &lt;5 keys&gt;" />
-            <marker date="1506274869000" expanded="true" signature="884:889" ph="mysql" />
-            <marker date="1506274869000" expanded="true" signature="910:915" ph="mysql" />
-            <marker date="1506274869000" expanded="true" signature="920:944" ph="ports: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="935:944" ph="3306:3306" />
-            <marker date="1506274869000" expanded="true" signature="949:989" ph="volumes: &lt;1 item&gt;" />
-            <marker date="1506274869000" expanded="true" signature="966:989" ph="db-data:/…lib/mysql/" />
-            <marker date="1506274869000" expanded="true" signature="994:1043" ph="environment: &lt;1 key&gt;" />
-            <marker date="1506274869000" expanded="true" signature="1035:1043" ph="somepass" />
-            <marker date="1506274869000" expanded="true" signature="1050:1084" ph="volumes: &lt;2 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="9:12" ph="2" />
+            <marker date="1506355559000" expanded="true" signature="14:941" ph="services: &lt;4 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="32:299" ph="nginx: &lt;6 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="50:62" ph="nginx:alpine" />
+            <marker date="1506355559000" expanded="true" signature="83:88" ph="nginx" />
+            <marker date="1506355559000" expanded="true" signature="93:118" ph="volumes_from: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="115:118" ph="php" />
+            <marker date="1506355559000" expanded="true" signature="123:235" ph="volumes: &lt;2 items&gt;" />
+            <marker date="1506355559000" expanded="true" signature="140:201" ph="./_docker…fault.conf" />
+            <marker date="1506355559000" expanded="true" signature="210:235" ph="static-da…atic_files" />
+            <marker date="1506355559000" expanded="true" signature="240:274" ph="links: &lt;2 items&gt;" />
+            <marker date="1506355559000" expanded="true" signature="255:258" ph="php" />
+            <marker date="1506355559000" expanded="true" signature="267:274" ph="adminer" />
+            <marker date="1506355559000" expanded="true" signature="279:299" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="294:299" ph="80:80" />
+            <marker date="1506355559000" expanded="true" signature="308:542" ph="php: &lt;7 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="324:341" ph="./_dockerData/php" />
+            <marker date="1506355559000" expanded="true" signature="353:373" ph="php:7.1.2-fpm-alpine" />
+            <marker date="1506355559000" expanded="true" signature="394:397" ph="php" />
+            <marker date="1506355559000" expanded="true" signature="415:428" ph="/var/www/data" />
+            <marker date="1506355559000" expanded="true" signature="433:485" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="450:485" ph="static-da…/storage:z" />
+            <marker date="1506355559000" expanded="true" signature="490:517" ph="entrypoint: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="510:517" ph="php-fpm" />
+            <marker date="1506355559000" expanded="true" signature="522:542" ph="links: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="537:542" ph="mysql" />
+            <marker date="1506355559000" expanded="true" signature="551:755" ph="adminer: &lt;5 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="585:592" ph="adminer" />
+            <marker date="1506355559000" expanded="true" signature="613:620" ph="adminer" />
+            <marker date="1506355559000" expanded="true" signature="625:649" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="640:649" ph="3307:8080" />
+            <marker date="1506355559000" expanded="true" signature="654:674" ph="links: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="669:674" ph="mysql" />
+            <marker date="1506355559000" expanded="true" signature="679:755" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="696:755" ph="./_docker…dminer.css" />
+            <marker date="1506355559000" expanded="true" signature="764:941" ph="mysql: &lt;5 keys&gt;" />
+            <marker date="1506355559000" expanded="true" signature="782:787" ph="mysql" />
+            <marker date="1506355559000" expanded="true" signature="808:813" ph="mysql" />
+            <marker date="1506355559000" expanded="true" signature="818:842" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="833:842" ph="3306:3306" />
+            <marker date="1506355559000" expanded="true" signature="847:887" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506355559000" expanded="true" signature="864:887" ph="db-data:/…lib/mysql/" />
+            <marker date="1506355559000" expanded="true" signature="892:941" ph="environment: &lt;1 key&gt;" />
+            <marker date="1506355559000" expanded="true" signature="933:941" ph="somepass" />
+            <marker date="1506355559000" expanded="true" signature="948:982" ph="volumes: &lt;2 keys&gt;" />
           </folding>
         </state>
       </provider>
@@ -431,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/back-end/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
           <folding />
         </state>
       </provider>
