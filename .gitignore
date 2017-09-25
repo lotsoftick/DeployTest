@@ -1,2 +1,14 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
+back-end/node_modules
+back-end/public/hot
+back-end/public/storage
+back-end/storage/*.key
+back-end/vendor
+back-end/.vagrant
+back-end/Homestead.json
+back-end/Homestead.yaml
+back-end/npm-debug.log
+back-end/yarn-error.log
+_dockerData/mysql/
+back-end/

@@ -11,7 +11,6 @@ services:
       - php
     volumes:
       - ./_dockerData/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
-      - static-data:/static_files
     links:
       - php
       - adminer
@@ -27,7 +26,6 @@ services:
     working_dir: /var/www/data
     volumes:
       - ./back-end/:/var/www/data/
-      - static-data:/var/www/data/storage:z
     entrypoint:
       - php-fpm
     links:
@@ -61,5 +59,4 @@ services:
 #
 #
 volumes:
-  static-data:
   db-data:
