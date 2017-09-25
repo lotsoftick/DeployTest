@@ -10,5 +10,3 @@ back-end/Homestead.json
 back-end/Homestead.yaml
 back-end/npm-debug.log
 back-end/yarn-error.log
-_dockerData/mysql/
-back-end/

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6cddc92-0dc2-4a80-bb4c-30b226725ada" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/back-end/index.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" afterPath="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.prod.yml" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docker-compose.prod.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.prod.yml">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="264">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -53,10 +50,10 @@
         <option value="$PROJECT_DIR$/docker-compose.prod..yml" />
         <option value="$PROJECT_DIR$/back-end/index.php" />
         <option value="$PROJECT_DIR$/_dockerData/php/Dockerfile" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_dockerData/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/back-end/.env" />
         <option value="$PROJECT_DIR$/docker-compose.prod.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -151,12 +148,12 @@
       <updated>1506254472854</updated>
       <workItem from="1506254474767" duration="279000" />
       <workItem from="1506254788266" duration="8904000" />
-      <workItem from="1506353980775" duration="4753000" />
+      <workItem from="1506353980775" duration="4963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13936000" />
+    <option name="totallyTimeSpent" value="14146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
@@ -242,14 +239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -376,6 +365,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
           <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <marker date="1506360236000" expanded="true" signature="9:12" ph="2" />
+            <marker date="1506360236000" expanded="true" signature="14:898" ph="services: &lt;4 keys&gt;" />
+            <marker date="1506360236000" expanded="true" signature="32:265" ph="nginx: &lt;6 keys&gt;" />
+            <marker date="1506360236000" expanded="true" signature="50:62" ph="nginx:alpine" />
+            <marker date="1506360236000" expanded="true" signature="83:88" ph="nginx" />
+            <marker date="1506360236000" expanded="true" signature="93:118" ph="volumes_from: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="115:118" ph="php" />
+            <marker date="1506360236000" expanded="true" signature="123:201" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="140:201" ph="./_docker…fault.conf" />
+            <marker date="1506360236000" expanded="true" signature="206:240" ph="links: &lt;2 items&gt;" />
+            <marker date="1506360236000" expanded="true" signature="221:224" ph="php" />
+            <marker date="1506360236000" expanded="true" signature="233:240" ph="adminer" />
+            <marker date="1506360236000" expanded="true" signature="245:265" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="260:265" ph="80:80" />
+            <marker date="1506360236000" expanded="true" signature="274:499" ph="php: &lt;7 keys&gt;" />
+            <marker date="1506360236000" expanded="true" signature="290:307" ph="./_dockerData/php" />
+            <marker date="1506360236000" expanded="true" signature="319:339" ph="php:7.1.2-fpm-alpine" />
+            <marker date="1506360236000" expanded="true" signature="360:363" ph="php" />
+            <marker date="1506360236000" expanded="true" signature="381:394" ph="/var/www/data" />
+            <marker date="1506360236000" expanded="true" signature="399:442" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="416:442" ph="./back-en…/www/data/" />
+            <marker date="1506360236000" expanded="true" signature="447:474" ph="entrypoint: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="467:474" ph="php-fpm" />
+            <marker date="1506360236000" expanded="true" signature="479:499" ph="links: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="494:499" ph="mysql" />
+            <marker date="1506360236000" expanded="true" signature="508:712" ph="adminer: &lt;5 keys&gt;" />
+            <marker date="1506360236000" expanded="true" signature="542:549" ph="adminer" />
+            <marker date="1506360236000" expanded="true" signature="570:577" ph="adminer" />
+            <marker date="1506360236000" expanded="true" signature="582:606" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="597:606" ph="3307:8080" />
+            <marker date="1506360236000" expanded="true" signature="611:631" ph="links: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="626:631" ph="mysql" />
+            <marker date="1506360236000" expanded="true" signature="636:712" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="653:712" ph="./_docker…dminer.css" />
+            <marker date="1506360236000" expanded="true" signature="721:898" ph="mysql: &lt;5 keys&gt;" />
+            <marker date="1506360236000" expanded="true" signature="739:744" ph="mysql" />
+            <marker date="1506360236000" expanded="true" signature="765:770" ph="mysql" />
+            <marker date="1506360236000" expanded="true" signature="775:799" ph="ports: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="790:799" ph="3306:3306" />
+            <marker date="1506360236000" expanded="true" signature="804:844" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1506360236000" expanded="true" signature="821:844" ph="db-data:/…lib/mysql/" />
+            <marker date="1506360236000" expanded="true" signature="849:898" ph="environment: &lt;1 key&gt;" />
+            <marker date="1506360236000" expanded="true" signature="890:898" ph="somepass" />
+            <marker date="1506360236000" expanded="true" signature="905:924" ph="volumes: &lt;1 key&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
