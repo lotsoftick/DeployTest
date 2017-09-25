@@ -1,2 +1,2 @@
 <?php
-echo "is working! xxx xx vvv";
+echo "is working!";
