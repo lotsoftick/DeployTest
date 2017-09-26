@@ -1,0 +1,51 @@
+version: "2"
+
+services:
+#
+#
+#
+  nginx:
+    image: lotsoftick/test-nginx-laravel
+    container_name: test_nginx_laravel
+    links:
+      - php
+      - adminer
+    ports:
+      - 80:80
+#
+#
+#
+  php:
+    image: lotsoftick/test-php-laravel
+    container_name: test_php_laravel
+    entrypoint:
+      - php-fpm
+    links:
+      - mysql
+#
+#
+#
+  adminer:
+    image: adminer
+    container_name: test_adminer
+    ports:
+      - 3307:8080
+    links:
+      - mysql
+#
+#
+#
+  mysql:
+    image: mysql
+    container_name: test_mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - db-data:/var/lib/mysql/
+    environment:
+      MYSQL_ROOT_PASSWORD:  somepass
+#
+#
+#
+volumes:
+  db-data:

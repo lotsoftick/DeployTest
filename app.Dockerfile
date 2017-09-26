@@ -1,6 +1,6 @@
 FROM    php:7.1.2-fpm-alpine
-COPY    ./php.ini   /usr/local/etc/php/
-COPY    ../../back-end/   /var/www/data/
+COPY    _dockerData/php/php.ini   /usr/local/etc/php/
+COPY    back-end/   /var/www/data/
 WORKDIR /var/www/data/
 RUN chown -R www-data:www-data \
         /var/www/data/storage \
